@@ -18,6 +18,8 @@ console.log(details);
 console.log(Number(age));  // 20 (string → number)
 console.log(String(age));   // "20" (number → string)
 console.log(Boolean(age));   // true
+console.log(parseInt("45.8"));    // 45
+console.log(parseFloat("45.8"));  // 45.8
 
 //Naming Convention
 let thisIsCamelCase = "Camel Case naming convetion, commonly used in js .";
