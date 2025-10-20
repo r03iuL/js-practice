@@ -24,6 +24,7 @@ for (let i = 0; i < students.length; i++) {
 }
 
 //while
+
 let num = 50,
   j = 0;
 
@@ -51,6 +52,7 @@ do {
 } while (!rightPass && k <= 2);
 
 //for in
+
 let inventory = { apples: 10, oranges: 5, bananas: 8 };
 
 for (const fruit in inventory) {
@@ -68,11 +70,13 @@ for (const letter of str) {
 
 console.log(reversedStr);
 
+//for each
+
 let marksOutOf150 = [80, 70, 37, 120, 133, 145, 99];
 
 marksOutOf150.forEach((mark, index) => {
-    let percentage =(mark / 150) * 100;
+  let percentage = (mark / 150) * 100;
   console.log(
-    `Student no ${index+1} got ${parseInt(percentage)} % marks out of 150.`
+    `Student no ${index + 1} got ${parseInt(percentage)} % marks out of 150.`
   );
 });
