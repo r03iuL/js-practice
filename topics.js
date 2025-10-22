@@ -38,8 +38,16 @@
 // 6.4 Nested Objects
 
 // 🟤 7. Functions
-// 7.1 Parameters
-// 7.2 Return Values
+// 7.1 Parameters & Default Values
+// 7.2 Return Values (Basic & Objects)
+// 7.3 Callback Functions
+// 7.4 Function Expressions
+// 7.5 Arrow Functions
+// 7.6 Scope & Closures
+// 7.7 Higher-Order Functions (HOFs)
+// 7.8 IIFE (Immediately Invoked Function Expressions)
+// 7.9 Recursion
+// 7.10 Function Composition
 
 // ⚪ 8. Math Object
 // 8.1 abs(), round(), floor(), ceil()
